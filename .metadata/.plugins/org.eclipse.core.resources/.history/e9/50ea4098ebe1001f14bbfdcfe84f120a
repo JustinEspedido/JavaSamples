@@ -15,23 +15,33 @@ public class JavaStatements {
 				System.out.println("Not equal to 30 or 15");
 		}*/
 		
-		String name = "Hatdog";
+		int day = 10;
 		
-		switch (name) 
+		switch (day) 
 		{
-			case "Hatdog": 
+			case 1: 
 			{
 				System.out.println("day 1");
 				break;
 			}
-			case "Eggs":
+			case 2:
 			{
 				System.out.println("day 2");
 				break;
 			}
-			case "Cheese":
+			case 3:
 			{
 				System.out.println("day 3");
+				break;
+			}
+			case 4:
+			{
+				System.out.println("day 4");
+				break;
+			}
+			case 5:
+			{
+				System.out.println("day 5");
 				break;
 			}
 			default:
